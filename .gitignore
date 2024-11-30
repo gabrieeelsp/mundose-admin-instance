@@ -1,0 +1,33 @@
+# Archivos y directorios de Terraform
+*.tfstate
+*.tfstate.backup
+*.tfvars
+*.tfvars.json
+
+# Planes generados por Terraform
+*.tfplan
+
+# Archivos de bloqueo de Terraform (depende de la versión de Terraform que uses)
+*.terraform.lock.hcl
+
+# Directorios generados localmente por Terraform
+.terraform/
+.terraform.d/
+
+# Archivos de credenciales o configuraciones sensibles
+credentials.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Logs de errores o depuración
+crash.log
+*.log
+
+# Archivos de editor/IDE
+.idea/
+.vscode/
+*.swp
+*.bak
+*.tmp
